@@ -38,8 +38,29 @@ body{
     width: 100vw;
 }
 
+#heroC{
+    margin-top: 10vh;
+    margin-left: 2vw;
+    float: left; 
+}
+
 #herotext{
-    margin: 0px;
+    margin-left: 0px;
+    margin-top: 18.5vh;
+    margin-bottom: 3px;
     color: white;
     float: left;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    
+}
+#herotextsmall{
+    margin-left: 0px;
+    margin-top: 22.5vh;
+    color: white;
+    float: left;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-style: italic;
+    font-size: 13px;
 }
