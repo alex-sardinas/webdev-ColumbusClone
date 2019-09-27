@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     margin: 0px;
     padding: 0px;
@@ -73,4 +78,52 @@ body{
     font-style: italic;
     font-size: 20px;
     text-shadow: 2px 2px #333;
+}
+
+#explorecchs{
+    width: 100vw;
+    height: 450px;
+}
+
+#exploreheader{
+    width: 100vw;
+    height: 81px;
+    background-color:  #102438;
+    text-align: center;
+    color: white;
+}
+
+#exploresection{
+    width: 100vw;
+    height: 369px;
+}
+
+.explorebox{
+    height: 369px;
+    width: 25%;
+    float: left;
+}
+
+#hurricane{
+    background-image: url(images/patriots\ plaza.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#guidance{
+    background-image: url(images/college.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#CCNN{
+    background-image: url(images/ccnn.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#Media{
+    background-image: url(images/ccnn\ live.png);
+    background-position: center;
+    background-size: cover;
 }
