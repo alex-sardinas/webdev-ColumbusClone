@@ -7,6 +7,9 @@ body{
     margin: 0px;
     padding: 0px;
 }
+
+/*----------------------------------------------NavBar-------------------------------------------------*/
+
 #topnavbar{
     list-style-type: none;
     background-color: #102438;
@@ -43,14 +46,7 @@ body{
     text-align: right;
 }
 
-/*#hero{
-    background-image: url(images/fans.jpg);
-    background-repeat: no-repeat; 
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;      
-}
-*/
+/*--------------------------------------------Hero Section-------------------------------------------------*/
 
 #hero {  
     height: 100vh; 
@@ -87,6 +83,8 @@ body{
     font-size: 20px;
     text-shadow: 2px 2px #333;
 }
+
+/*--------------------------------------------Explore CCHS------------------------------------------*/
 
 #explorecchs{
     width: 100vw;
@@ -179,6 +177,8 @@ body{
     padding: 20px 10px;
 }
 
+/*------------------------------------------CCHS at a Glance-------------------------------------------*/
+
 #CCHSataglance{
     width: 100vw;
     height: 300px;
@@ -259,6 +259,8 @@ body{
     margin-left: 2%;
 }
 
+/*-------------------------------------------Box in the middle----------------------------------------*/
+
 #apcourses{
     height: 200px;
     width: 100vw;
@@ -275,6 +277,8 @@ body{
     text-align: center;   
     font-family: 'PT Sans Narrow', sans-serif;
 }
+
+/*----------------------------------------------Colleges---------------------------------------------*/
 
 #colleges{
     height: 275px;
@@ -320,9 +324,6 @@ body{
     background-position: center;
     width: 20%; 
 }
-
-
-
 
 #northcarolina{
     background-image: url(images/northcarolina.png);
