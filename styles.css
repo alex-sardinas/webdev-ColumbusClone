@@ -81,7 +81,7 @@
 
 #explorecchs{
     width: 100vw;
-    height: 450px;
+    height: 550px;
 }
 
 #exploreheader{
@@ -98,11 +98,11 @@
 
 #exploresection{
     width: 100vw;
-    height: 369px;
+    height: 469px;
 }
 
 .explorebox{
-    height: 369px;
+    height: 469px;
     width: 25%;
     float: left;
 }
@@ -116,7 +116,7 @@
 #hurricanetext{
     border: 1px solid white;
     background:#102438;
-    margin: 150px 35px;
+    margin: 40% 20%;
     text-align: center;
     color: white;
     font-family: 'PT Sans Narrow', sans-serif;
@@ -132,7 +132,7 @@
 #guidancetext{
     border: 1px solid white;
     background: red;
-    margin: 150px 35px;
+    margin: 40% 20%;
     text-align: center;
     color: white;
     font-family: 'PT Sans Narrow', sans-serif;
@@ -147,7 +147,7 @@
 
 #CCNNtext{
     background-image: url(images/ccnn\ live.png);
-    margin: 150px 35px;
+    margin: 40% 20%;
     background-position: center;
     background-size: cover;
     border: 1px solid white;
@@ -163,7 +163,7 @@
 #mediatext{
     border: 1px solid white;
     background: tan;
-    margin: 150px 35px;
+    margin: 40% 20%;
     text-align: center;
     color: white;
     font-family: 'PT Sans Narrow', sans-serif;
@@ -238,6 +238,8 @@
     width: 23%;
     height: 100px;
     float: left;
+    font-size: 1.2em;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 
 .glancetext h2{
@@ -274,7 +276,7 @@
 /*----------------------------------------------Colleges---------------------------------------------*/
 
 #colleges{
-    height: 275px;
+    height: 280px;
     width: 100%;
     margin-top: 50px; 
 }
@@ -289,7 +291,7 @@
 
 #collegessections{
     width: 100%;
-    height: 225px;
+    height: 285px;
 }
 
 .collegesimg{
@@ -316,6 +318,7 @@
     background-repeat: none;
     background-position: center;
     width: 20%; 
+    height: 180px;
 }
 
 #northcarolina{
@@ -361,8 +364,15 @@
 }
 
 #footernav li:nth-child(5){
-    margin: 0px 70px;
+    margin-left: 350px;
+    margin-right: 0px;
 }
+
+#footernav li:nth-child(6){
+    margin-left: 210px;
+}
+
+
 
 #footerbottom{
     width: 100vw;
@@ -384,7 +394,7 @@
     color: white;
     position: relative;
     top: 40px;
-    right: 55px; 
+    right: 110px; 
 }
 
 #footertext{
@@ -402,6 +412,6 @@
 #columbusseal{
     float: right;
     position: relative;
-    right: 55px;
+    right: 110px;
     top: 50px;
 }
