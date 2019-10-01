@@ -3,11 +3,6 @@
     padding: 0;
 }
 
-body{
-    margin: 0px;
-    padding: 0px;
-}
-
 /*----------------------------------------------NavBar-------------------------------------------------*/
 
 #topnavbar{
@@ -21,9 +16,7 @@ body{
     text-transform: uppercase;
 }
 #topnavbar ul{
-
     padding: 10px; 
-    
 }
 #topnavbar li{
     display: inline;
@@ -337,4 +330,78 @@ body{
     background-repeat: none;
     background-position: center;
     width: 22%;
+}
+
+/*----------------------------------------   Footer    ------------------------------------------------------*/
+
+#footer{
+    width: 100vw;
+    height: 400px;
+}
+
+#footernav{
+    list-style-type: none;
+    background-color: #102438;
+    color: #a3dde8;
+    font-size: 13px;
+    padding: 0px 30px;
+    margin: 0px;
+    font-family: "Open Sans" , sans-serif;
+    text-transform: uppercase;
+    height: 50px;
+}
+
+#footernav ul{
+    padding: 0px; 
+}
+
+#footernav li{
+    display: inline;
+    margin: 1vw;
+}
+
+#footernav li:nth-child(5){
+    margin: 0px 70px;
+}
+
+#footerbottom{
+    width: 100vw;
+    height: 350px;
+    background-color: #333333; 
+    font-family: 'Open Sans', sans-serif;
+}
+
+#footercontact{
+    color: white;
+    position: relative;
+    top: 40px;
+    left: 45px; 
+    float: left;
+}
+
+#sitemap{
+    float: right;
+    color: white;
+    position: relative;
+    top: 40px;
+    right: 55px; 
+}
+
+#footertext{
+    font-style: italic;
+    margin-right: 30%;
+    color: lightgray;
+    font-size: .875em; 
+    float: left;
+    position: relative;
+    top: 175px;
+    left: 45px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#columbusseal{
+    float: right;
+    position: relative;
+    right: 55px;
+    top: 50px;
 }
