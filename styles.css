@@ -10,22 +10,27 @@
     background-color: #102438;
     color: white;
     font-size: 13px;
-    padding: 10px;
+    padding: 0px;
     margin: 0px;
     font-family: "Open Sans" , sans-serif;
     text-transform: uppercase;
+    display: inline-block;
+    width: 100vw;
 }
+
 #topnavbar ul{
-    padding: 10px; 
+    padding: 0px; 
 }
+
 #topnavbar li{
     display: inline;
-    margin: 1.5vw;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
 }
 
 #topnavbar li:first-child{
     margin-left: 5px;
-    padding-left: 5px;
+    padding-left: 25px;
 }
 
 #topnavbar li:nth-child(8){
@@ -38,6 +43,16 @@
     font-family: "Open Sans" , sans-serif; 
     text-align: right;
 }
+
+#lasttwo{
+    background-color: #0088cc;
+    margin: 0px;
+    display: inline-block;
+    height: 50px;
+    padding-top: 18px;
+    color: white;
+}
+
 
 /*--------------------------------------------Hero Section-------------------------------------------------*/
 
@@ -371,8 +386,6 @@
 #footernav li:nth-child(6){
     margin-left: 210px;
 }
-
-
 
 #footerbottom{
     width: 100vw;
